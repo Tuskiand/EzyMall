@@ -1,0 +1,17 @@
+INFO     common.recordlog:sendrequest.py:135 接口名称：用户登录
+INFO     common.recordlog:sendrequest.py:136 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO     common.recordlog:sendrequest.py:137 请求方式：post
+INFO     common.recordlog:sendrequest.py:138 测试用例名称：用户名和密码正确登录验证
+INFO     common.recordlog:sendrequest.py:139 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO     common.recordlog:sendrequest.py:140 Cookie：None
+INFO     common.recordlog:sendrequest.py:144 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO     common.recordlog:sendrequest.py:107 cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyNDM3NywianRpIjoiNDZmMDdkMzAtYTgzOC00ODRmLTk3M2ItOGIyNTg4ZGI2YTQ2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyNDM3NywiZXhwIjoxNzQ5NTI1Mjc3fQ._kwQ1JDIGknCAyTUjCc9INtmgfrWNGNFpDDH_PeN1oU'}}
+INFO     common.recordlog:sendrequest.py:108 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"b2Df1d468924aAF555eEA99dBc955","userId":"6365760394018122440"}
+
+INFO     common.recordlog:apiutil.py:154 提取接口的返回值：
+INFO     common.recordlog:assertions.py:170 yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO     common.recordlog:assertions.py:45 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO     common.recordlog:assertions.py:68 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO     common.recordlog:assertions.py:198 测试成功
+INFO     common.recordlog:conftest.py:20 -------------接口测试开始--------------
+INFO     common.recordlog:conftest.py:22 -------------接口测试结束--------------

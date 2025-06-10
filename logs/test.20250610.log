@@ -1,0 +1,697 @@
+INFO - 2025-06-10 09:48:43,838 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 09:48:43,839 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 09:48:43,839 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 09:48:43,839 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 09:48:43,839 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 09:48:43,840 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 09:48:43,840 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2025-06-10 09:48:45,871 - sendrequest.py:110 -[sendrequest:send_request] - ConnectionError--连接异常
+INFO - 2025-06-10 09:49:48,263 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 09:49:48,264 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 09:49:48,264 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 09:49:48,264 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 09:49:48,264 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 09:49:48,264 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 09:49:48,265 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 09:49:48,273 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyMDE4OCwianRpIjoiOTZkZDBmYWQtMzM4YS00OTgwLThjOWMtNTAzYzVjNDYxZWIwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyMDE4OCwiZXhwIjoxNzQ5NTIxMDg4fQ.OBHIPaG3b45evOErhbBlWbSsQekPXDgELgWz8P8olzU'}}
+INFO - 2025-06-10 09:49:48,273 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"0CafcB950663288dcfC682F9B95eF","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 09:49:48,274 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 09:49:48,275 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 09:49:48,276 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 09:49:48,276 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 09:49:48,276 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 09:49:48,277 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,550 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,552 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,602 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,605 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,619 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,622 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,636 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,639 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,653 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,654 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,669 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,672 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,687 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,690 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,704 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,706 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,720 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,724 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,738 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,741 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,757 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,762 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,781 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,785 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,802 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,806 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,825 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,829 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,846 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,850 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,865 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,868 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,882 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,884 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,899 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:49:48,903 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:49:48,917 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,106 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 09:50:01,106 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 09:50:01,106 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 09:50:01,107 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 09:50:01,107 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 09:50:01,107 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 09:50:01,107 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 09:50:01,114 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyMDIwMSwianRpIjoiNGM2ZjgyZTUtOGJkMi00NTg4LWE5NzctN2ZjZjdmYzAxYzgyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyMDIwMSwiZXhwIjoxNzQ5NTIxMTAxfQ.BxnF3M9oVUmY7aR_tcMy0r5h6avzimJ1l_E6UsBtxaM'}}
+INFO - 2025-06-10 09:50:01,114 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"7D2aa0A6edAcA097Ae74d0EBC7F1a","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 09:50:01,115 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 09:50:01,116 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 09:50:01,116 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 09:50:01,117 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 09:50:01,117 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 09:50:01,118 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,372 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,375 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,419 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,422 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,436 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,439 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,453 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,456 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,469 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,471 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,485 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,487 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,501 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,503 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,517 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,519 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,532 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,535 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,548 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,551 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,564 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,566 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,580 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,584 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,599 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,602 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,617 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,620 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,635 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,638 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,653 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,657 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,675 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,678 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,695 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:50:01,698 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:50:01,712 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:32,830 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 09:51:32,830 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 09:51:32,830 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 09:51:32,830 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 09:51:32,831 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 09:51:32,831 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 09:51:32,831 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 09:51:32,838 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyMDI5MiwianRpIjoiZThlNzQ1MmYtYzFiOC00YTRlLWE5ZDgtNmNhNzQwMGFmNDg1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyMDI5MiwiZXhwIjoxNzQ5NTIxMTkyfQ.izdGdOSKGOFbZp-N_FutvPOqZVvV805f2nIscg3Um-0'}}
+INFO - 2025-06-10 09:51:32,838 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"2E0a0B377A3e8bC81084fBbd2E0A7","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 09:51:32,839 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 09:51:32,840 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 09:51:32,841 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 09:51:32,841 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 09:51:32,841 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 09:51:32,842 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,122 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,125 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,172 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,175 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,189 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,193 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,206 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,209 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,223 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,226 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,239 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,242 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,257 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,259 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,274 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,277 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,290 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,293 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,306 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,309 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,323 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,326 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,342 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,346 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,367 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,371 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,389 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,394 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,411 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,414 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,432 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,435 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,450 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,453 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,466 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 09:51:33,468 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 09:51:33,482 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,227 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 10:18:03,228 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 10:18:03,228 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 10:18:03,228 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 10:18:03,228 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 10:18:03,228 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 10:18:03,229 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 10:18:03,268 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyMTg4MywianRpIjoiMjljYzg3ZjAtZjA1MC00ZDg1LWFjNjgtNTlhMDEyNTM4NzQxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyMTg4MywiZXhwIjoxNzQ5NTIyNzgzfQ.Zn5YyAzQNBl_nl-Tgeylimbsq-irVwDyr7XmxyDoeLQ'}}
+INFO - 2025-06-10 10:18:03,268 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"f35Ddecc0797c96f7ae67cB3eA04D","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 10:18:03,269 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 10:18:03,270 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 10:18:03,270 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 10:18:03,270 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 10:18:03,271 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 10:18:03,271 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,539 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,541 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,584 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,587 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,600 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,603 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,617 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,620 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,633 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,635 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,648 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,650 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,663 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,665 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,678 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,681 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,695 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,698 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,712 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,714 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,727 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,729 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,743 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,746 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,762 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,765 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,782 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,785 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,800 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,804 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,822 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,826 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,843 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,846 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,860 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:18:03,863 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:18:03,876 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,021 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 10:19:53,021 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 10:19:53,022 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 10:19:53,022 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 10:19:53,022 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 10:19:53,022 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 10:19:53,023 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 10:19:53,030 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyMTk5MywianRpIjoiNGE3N2JjYjUtYzg1Ni00ZWViLWE0YmYtZWY4MjUxNTJmNWIwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyMTk5MywiZXhwIjoxNzQ5NTIyODkzfQ.yfZ-BoSTo-CQx4Gum3K9c2_a1kbfy-e8thTcATtsouw'}}
+INFO - 2025-06-10 10:19:53,030 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"d9Fdf0e1DfDEad53AeAf5B035ad5E","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 10:19:53,031 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 10:19:53,032 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 10:19:53,032 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 10:19:53,033 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 10:19:53,033 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 10:19:53,034 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,323 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,325 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,375 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,387 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,400 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,403 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,416 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,419 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,432 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,434 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,449 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,453 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,467 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,471 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,485 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,488 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,504 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,506 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,520 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,523 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,539 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,542 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,558 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,561 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,576 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,578 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,593 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,596 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,614 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,618 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,633 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,636 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,650 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,653 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,666 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:19:53,668 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:19:53,682 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:49,764 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 10:21:49,764 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 10:21:49,764 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 10:21:49,764 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 10:21:49,765 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 10:21:49,765 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 10:21:49,765 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 10:21:49,772 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyMjEwOSwianRpIjoiMTFlNDYxMTEtYTFlYy00YTc2LTljZjctOWRhNzUwYjc0ZDFmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyMjEwOSwiZXhwIjoxNzQ5NTIzMDA5fQ.Rxu3aPuMujo34JxzWqHIveF6X-nkg_III04IJYM22BI'}}
+INFO - 2025-06-10 10:21:49,773 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"ccE08bd9d5cC3f9378bDe1C65b70C","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 10:21:49,774 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 10:21:49,775 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 10:21:49,775 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 10:21:49,776 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 10:21:49,776 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 10:21:49,777 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,076 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,079 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,126 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,130 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,144 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,146 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,160 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,163 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,177 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,180 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,198 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,200 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,223 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,225 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,241 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,243 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,258 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,261 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,275 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,278 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,294 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,297 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,315 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,319 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,335 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,339 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,356 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,359 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,375 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,378 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,394 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,396 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,411 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,415 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,430 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:21:50,432 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:21:50,448 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:03,915 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 10:24:03,915 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 10:24:03,915 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 10:24:03,915 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 10:24:03,915 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 10:24:03,915 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 10:24:03,915 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 10:24:03,921 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyMjI0MywianRpIjoiMzA4MjNiNzEtNGY1MS00MWEyLWJhMjMtYTk4YzAxZmU2ZjI2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyMjI0MywiZXhwIjoxNzQ5NTIzMTQzfQ.WCJZvI5qXZ9babckX6vwRu8x0k0BREOdCedZBT-xing'}}
+INFO - 2025-06-10 10:24:03,921 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"F1359f4aBAC09cE4f38E96C0aD1Cb","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 10:24:03,928 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 10:24:03,930 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 10:24:03,931 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 10:24:03,931 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 10:24:03,932 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 10:24:03,932 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,184 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,197 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,246 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,249 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,265 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,269 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,285 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,288 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,306 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,311 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,327 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,332 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,351 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,355 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,372 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,374 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,391 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,394 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,409 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,414 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,429 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,433 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,449 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,449 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,468 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,472 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,489 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,492 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,507 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,509 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,528 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,532 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,546 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,553 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,570 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:24:04,572 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:24:04,597 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:27,928 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 10:25:27,928 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 10:25:27,928 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 10:25:27,928 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 10:25:27,928 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 10:25:27,928 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 10:25:27,928 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 10:25:27,938 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyMjMyNywianRpIjoiNGFhZDFiZjktZmQ4Yi00NTk3LWIxNDktMjZkM2U4YzE4NDkyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyMjMyNywiZXhwIjoxNzQ5NTIzMjI3fQ.C7yCVOOzLRpBRRtxyo5sUtnHjg0-ptZd024tGjBMb-U'}}
+INFO - 2025-06-10 10:25:27,939 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"c11D75C14C9dBFfD0679Fb52a25ff","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 10:25:27,940 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 10:25:27,941 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 10:25:27,942 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 10:25:27,942 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 10:25:27,943 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 10:25:27,944 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,229 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,233 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,280 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,286 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,303 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,306 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,324 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,328 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,344 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,349 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,375 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,378 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,396 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,399 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,416 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,419 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,435 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,439 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,454 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,458 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,474 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,478 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,496 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,501 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,517 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,521 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,538 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,542 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,558 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,562 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,577 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,580 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,601 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,606 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,627 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:25:28,636 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:25:28,659 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:11,802 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 10:27:11,802 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 10:27:11,802 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 10:27:11,802 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 10:27:11,802 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 10:27:11,802 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 10:27:11,806 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 10:27:11,810 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyMjQzMSwianRpIjoiOTQ4MWMyZmYtOTlmMi00ZWJhLThkMGQtZDgwY2ZjYzUyY2M4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyMjQzMSwiZXhwIjoxNzQ5NTIzMzMxfQ.rJfuNuFNr-Fn4iGhloYNOFpsd8F9ZY9ofNyLDARQocE'}}
+INFO - 2025-06-10 10:27:11,814 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"C1eeea5eDfEb71dA4Acee1d59ab83","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 10:27:11,814 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 10:27:11,814 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 10:27:11,817 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 10:27:11,817 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 10:27:11,818 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 10:27:11,819 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,092 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,095 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,141 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,153 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,168 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,171 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,186 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,190 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,205 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,209 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,224 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,227 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,243 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,247 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,262 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,267 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,292 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,299 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,328 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,339 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,371 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,376 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,417 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,424 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,451 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,453 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,483 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,486 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,510 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,515 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,532 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,536 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,556 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,559 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,574 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:27:12,578 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:27:12,593 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,143 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 10:35:56,144 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 10:35:56,144 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 10:35:56,144 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 10:35:56,144 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 10:35:56,145 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 10:35:56,145 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 10:35:56,166 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyMjk1NiwianRpIjoiNzNkNThjNzAtMGE0ZC00MmQ1LTgxOTAtZTQwNjI2NzY4NzQyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyMjk1NiwiZXhwIjoxNzQ5NTIzODU2fQ.rVtsGsG9ybs8UQoUv_NP9zjE_b-MkGy6I7yECMx_KFA'}}
+INFO - 2025-06-10 10:35:56,166 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"43baFd2f6Fc3FD4d4dDbFDBf0Cd8C","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 10:35:56,168 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 10:35:56,168 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 10:35:56,170 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 10:35:56,170 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 10:35:56,171 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 10:35:56,171 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,500 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,503 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,555 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,561 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,578 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,581 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,600 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,603 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,618 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,621 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,634 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,637 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,650 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,653 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,669 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,673 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,688 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,692 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,710 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,714 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,732 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,735 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,752 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,756 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,773 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,778 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,799 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,803 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,817 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,820 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,837 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,840 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,853 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,856 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,870 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:35:56,873 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:35:56,888 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,149 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 10:56:48,149 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 10:56:48,150 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 10:56:48,150 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 10:56:48,150 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 10:56:48,150 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 10:56:48,151 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 10:56:48,185 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyNDIwOCwianRpIjoiZmQxYzZkYWEtMTA2Zi00MmM1LWE2N2EtMTRlNGM2MDE0NDI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyNDIwOCwiZXhwIjoxNzQ5NTI1MTA4fQ.jmCGZqb7dvHwLwRpr9iR0zhXNuxocqUHvsGwiAcSg6k'}}
+INFO - 2025-06-10 10:56:48,185 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"a686019063A9B89eA6743b3ddcb7A","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 10:56:48,187 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 10:56:48,188 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 10:56:48,188 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 10:56:48,189 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 10:56:48,190 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 10:56:48,190 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,484 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,487 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,532 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,537 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,553 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,556 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,571 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,575 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,590 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,595 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,612 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,615 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,631 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,635 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,651 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,656 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,672 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,675 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,695 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,699 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,717 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,720 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,738 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,741 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,761 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,765 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,785 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,788 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,803 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,806 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,825 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,829 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,847 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,850 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,869 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:56:48,875 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:56:48,897 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,103 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 10:58:57,103 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 10:58:57,104 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 10:58:57,104 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 10:58:57,104 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 10:58:57,104 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 10:58:57,105 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 10:58:57,114 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyNDMzNywianRpIjoiZTI1ZDUxMWItOTE5NC00NWJjLWJjZjEtZDlmZDQ3MmQyYWUyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyNDMzNywiZXhwIjoxNzQ5NTI1MjM3fQ.M6fr6Ee7mcDXYUktZSmhvP4UdMUV02m1b9uQpf5VeLQ'}}
+INFO - 2025-06-10 10:58:57,115 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"32a86bAC68e62B7bD3D7259B72Aec","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 10:58:57,117 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 10:58:57,118 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 10:58:57,119 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 10:58:57,119 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 10:58:57,120 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 10:58:57,121 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,390 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,394 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,439 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,443 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,459 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,462 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,480 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,484 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,499 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,503 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,521 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,524 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,541 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,544 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,560 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,563 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,579 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,583 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,598 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,601 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,617 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,620 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,637 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,640 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,656 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,660 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,678 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,681 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,704 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,710 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,728 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,733 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,751 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,754 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,776 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:58:57,779 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:58:57,795 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,299 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-06-10 10:59:37,299 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-06-10 10:59:37,299 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-06-10 10:59:37,300 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-06-10 10:59:37,300 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-06-10 10:59:37,300 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-06-10 10:59:37,301 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-06-10 10:59:37,310 - sendrequest.py:107 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0OTUyNDM3NywianRpIjoiNDZmMDdkMzAtYTgzOC00ODRmLTk3M2ItOGIyNTg4ZGI2YTQ2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0OTUyNDM3NywiZXhwIjoxNzQ5NTI1Mjc3fQ._kwQ1JDIGknCAyTUjCc9INtmgfrWNGNFpDDH_PeN1oU'}}
+INFO - 2025-06-10 10:59:37,310 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"b2Df1d468924aAF555eEA99dBc955","userId":"6365760394018122440"}
+
+INFO - 2025-06-10 10:59:37,312 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-06-10 10:59:37,313 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-06-10 10:59:37,314 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-06-10 10:59:37,314 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-06-10 10:59:37,315 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-06-10 10:59:37,316 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,606 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,609 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,659 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,662 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,679 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,682 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,700 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,704 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,719 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,723 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,740 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,743 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,759 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,762 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,777 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,781 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,804 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,809 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,832 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,839 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,859 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,862 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,881 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,884 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,899 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,902 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,917 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,920 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,937 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,942 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,958 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,961 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:37,978 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:37,981 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:38,006 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-06-10 10:59:38,011 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-06-10 10:59:38,033 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
