@@ -1,0 +1,7 @@
+{
+    "error": "",
+    "error_code": "",
+    "queryTime": "2025-06-12 21:17:20",
+    "status": "0",
+    "translate_language": "zh-CN"
+}

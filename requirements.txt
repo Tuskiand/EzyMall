@@ -7,10 +7,16 @@ paramiko
 pymongo
 PyMySQL
 PyQt5
-pytest
+pytest==7.1.1
 PyYAML
 redis
 requests
 SQLAlchemy
 urllib3
 faker
+allure-pytest==2.9.45
+pytest-html==3.1.1
+pytest-xdist==2.5.0
+pytest-ordering==0.6
+pytest-rerunfailures==10.2
+pytest-sugar==0.9.4
